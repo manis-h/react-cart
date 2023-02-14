@@ -48,7 +48,7 @@ function Tshirt() {
   return (
     <div className="home">
     <div className="container text-center">
-      <h1 className="text-white">FEATURED PRODUCTS</h1>
+      <h1 className="text-white">CLOTHING</h1>
     </div>
     {productList.map((i) => (
       <ProductCard
